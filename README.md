@@ -1,7 +1,7 @@
 glass
 =====
 
-The glass system from the M.E.R.C.S. campaign by IndeedPete as a standalone mod.
+The glass system from the [M.E.R.C.S. campaign](http://forums.bistudio.com/showthread.php?177261-SP-Campaign-M-E-R-C-S-mercenary-expendable-ruthless-covert-selfish) by IndeedPete as a standalone mod.
 
 Dependencies
 ============
@@ -16,4 +16,13 @@ The `Addons` folder in the root of this repository needs to be in a mod folder, 
 Credits
 =======
 
-IndeedPete - Original glass system in his [M.E.R.C.S. campaign](http://forums.bistudio.com/showthread.php?177261-SP-Campaign-M-E-R-C-S-mercenary-expendable-ruthless-covert-selfish)
+IndeedPete - Original glass system for his [M.E.R.C.S. campaign](http://forums.bistudio.com/showthread.php?177261-SP-Campaign-M-E-R-C-S-mercenary-expendable-ruthless-covert-selfish)
+
+License
+=======
+
+<a rel="license" href="http://www.bistudio.com/licenses/arma-public-license-share-alike" target="_blank" >
+   <img src="http://www.bistudio.com/license-icons/small/APL-SA.png" >
+   <br>
+   This work is licensed under a Arma Public License Share Alike
+</a>
