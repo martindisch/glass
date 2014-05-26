@@ -24,6 +24,10 @@ class CfgFunctions
 			{
 				file = "\glass\fnc\glass\glassStatus.sqf";
 			};
+			class glassDistance
+			{
+				file = "\glass\fnc\glass\glassDistance.sqf";
+			};
 		};
 		
 		class tacPad

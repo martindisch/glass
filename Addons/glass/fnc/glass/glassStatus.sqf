@@ -4,7 +4,7 @@ private "_bearing";
 _goggles = _this select 0;
 65 cutRsc ["IP_DLG_GLASSSTATUS", "PLAIN"];
 
-while {CHECK} do {	
+while {CHECK} do {
 	_pos = getPos player;
 	_bearing = getDir player;
 	_fatigue = getFatigue player;
