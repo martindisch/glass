@@ -23,3 +23,4 @@ if (player getVariable [_what, false]) then {
 };
 
 [] spawn IP_fnc_openTacPadDialog;
+[] spawn IP_fnc_glassDistance;
