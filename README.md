@@ -6,5 +6,9 @@ The glass system from the M.E.R.C.S. campaign by IndeedPete as a standalone mod.
 Dependencies
 ============
 
-This mod requires [CBA_A3](http://forums.bistudio.com/showthread.php?178224-CBA-Community-Base-Addons-ARMA-3)
-to run.
+This mod requires [CBA_A3](http://forums.bistudio.com/showthread.php?178224-CBA-Community-Base-Addons-ARMA-3) to run.
+
+Build
+=====
+
+The 'Addons' folder in the root of this repository needs to be in a mod folder, e.g. '@glass\Addons'. '@glass\Addons\glass' then needs to be turned into a PBO, resulting in the already existing '@glass\Addons\glass.pbo'. The original '@glass\Addons\glass' folder can then be deleted and the complete package is ready.
