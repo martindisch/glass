@@ -8,5 +8,3 @@ while {CHECK} do {
 	[format ["<t size='0.5'>RNG: %2 M                          HDG: %1                          GRID: %3", direction player, _glassDistance, _glassPosition],-0,-0.4,1,0,0,99999] spawn bis_fnc_dynamictext;
 	sleep 0.5;
 };
-
-player setVariable[IP_Distance_On, false];

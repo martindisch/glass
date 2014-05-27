@@ -85,6 +85,4 @@ if (player getVariable ["IP_Glass_Boot", false]) then {
 	[_goggles] spawn IP_fnc_glassCore;
 	[_goggles] spawn IP_fnc_glassStatus;
 	[_goggles] spawn IP_fnc_glassDetails;
-	[_goggles] spawn IP_fnc_glassDistance;
-	player setVariable[IP_Distance_On, true];
 };

@@ -2,6 +2,8 @@
 
 _goggles = _this select 0;
 
+[_goggles] spawn IP_fnc_glassDistance;
+
 _code = {
 	{
 		if((player distance _x < 1000) && (!isPlayer _x) && (player knowsAbout _x >= 0.7)) then	{
