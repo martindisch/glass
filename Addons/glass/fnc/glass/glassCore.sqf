@@ -61,11 +61,19 @@ _code = {
 	} forEach (allUnits + vehicles + allDead);
 	
 	_task = [player] call BIS_fnc_taskCurrent;
-	if ((_task != "") && {count ([_task] call BIS_fnc_taskDestination) > 0}) then {
+	if (_task != "") then {
 		_destArr = [_task] call BIS_fnc_taskDestination;
-		_pos = if (count _destArr > 2) then {_destArr} else {(getPos(_destArr select 0))};
-		_pos set [2, ((_pos select 2) + 5)];
-		drawIcon3D ["\a3\ui_f\data\map\Markers\Military\warning_ca.paa", ([(side player)] call BIS_fnc_SideColor), _pos, 2, 2, 0, "", 0, 0.04];
+		_pos = if (count _destArr > 2) then {
+			_destArr
+		} else {
+			_obj = _destArr select 0;
+			if (!isNull _obj) then {(getPos _obj)}	else {[0, 0, 0]}
+		};
+		
+		if (!([_pos, [0, 0, 0]] call BIS_fnc_areEqual)) then {
+			_posMod = [(_pos select 0), (_pos select 1), ((_pos select 2) + 10)];
+			drawIcon3D ["\a3\ui_f\data\map\Markers\Military\warning_ca.paa", ([(side player)] call BIS_fnc_SideColor), _posMod, 2, 2, 0, "", 0, 0.04];
+		};
 	};
 };
 
