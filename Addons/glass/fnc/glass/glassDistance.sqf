@@ -3,8 +3,8 @@
 _goggles = _this select 0;
 
 while {CHECK} do {
-	_glassDistance = round player distance (screenToWorld [0.5,0.5]);
-	_glassDir = round direction player;
-	[format ["<t size='0.5'>RNG: %2 M                          HDG: %1", _glassDir, _glassDistance],-0,-0.4,0.5,0,0,99999] spawn bis_fnc_dynamictext;
+	_glassDistance = player distance (screenToWorld [0.5,0.5]);
+	_glassDir = direction player;
+	[format ["<t size='0.5'>RNG: %2 M                          HDG: %1", round _glassDir, round _glassDistance],-0,-0.4,0.5,0,0,99999] spawn bis_fnc_dynamictext;
 	sleep 0.5;
 };
