@@ -10,9 +10,9 @@ class IP_DLG_TACPAD
 			idc = -1;
 			text = ""; //--- ToDo: Localize;
 			x = 29.5 * GUI_GRID_W + GUI_GRID_X;
-			y = 3.5 * GUI_GRID_H + GUI_GRID_Y;
+			y = 4.5 * GUI_GRID_H + GUI_GRID_Y;
 			w = 9.5 * GUI_GRID_W;
-			h = 13 * GUI_GRID_H;
+			h = 11 * GUI_GRID_H;
 		};
 		
 		////////////////////////////////////////////////////////
@@ -24,9 +24,9 @@ class IP_DLG_TACPAD
 			idc = 1802;
 			text = "Equipment Control"; //--- ToDo: Localize;
 			x = 29.5 * GUI_GRID_W + GUI_GRID_X;
-			y = 3.5 * GUI_GRID_H + GUI_GRID_Y;
+			y = 4.5 * GUI_GRID_H + GUI_GRID_Y;
 			w = 9.5 * GUI_GRID_W;
-			h = 13 * GUI_GRID_H;
+			h = 11 * GUI_GRID_H;
 		};
 		class IP_BTN_GLASSONOFF: RscButton
 		{
