@@ -10,9 +10,9 @@ class IP_DLG_TACPAD
 			idc = -1;
 			text = ""; //--- ToDo: Localize;
 			x = 29.5 * GUI_GRID_W + GUI_GRID_X;
-			y = 1.5 * GUI_GRID_H + GUI_GRID_Y;
+			y = 3.5 * GUI_GRID_H + GUI_GRID_Y;
 			w = 9.5 * GUI_GRID_W;
-			h = 15 * GUI_GRID_H;
+			h = 13 * GUI_GRID_H;
 		};
 		
 		////////////////////////////////////////////////////////
@@ -24,19 +24,9 @@ class IP_DLG_TACPAD
 			idc = 1802;
 			text = "Equipment Control"; //--- ToDo: Localize;
 			x = 29.5 * GUI_GRID_W + GUI_GRID_X;
-			y = 1.5 * GUI_GRID_H + GUI_GRID_Y;
+			y = 3.5 * GUI_GRID_H + GUI_GRID_Y;
 			w = 9.5 * GUI_GRID_W;
-			h = 15 * GUI_GRID_H;
-		};
-		class IP_BTN_CAMO: RscButton
-		{
-			idc = 1602;
-			text = "Active camo on"; //--- ToDo: Localize;
-			x = 30 * GUI_GRID_W + GUI_GRID_X;
-			y = 3 * GUI_GRID_H + GUI_GRID_Y;
-			w = 8.5 * GUI_GRID_W;
-			h = 2 * GUI_GRID_H;
-			action = "call IP_fnc_activeCamo";
+			h = 13 * GUI_GRID_H;
 		};
 		class IP_BTN_GLASSONOFF: RscButton
 		{

@@ -32,10 +32,6 @@ class CfgFunctions
 		
 		class tacPad
 		{
-			class activeCamo
-			{
-				file = "\glass\fnc\activeCamo\camo_switch.sqf";
-			};
 			class openTacPadDialog
 			{
 				file = "\glass\fnc\tacPad\openTacPadDialog.sqf";
