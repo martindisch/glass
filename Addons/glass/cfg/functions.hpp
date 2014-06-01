@@ -38,17 +38,5 @@ class CfgFunctions
 			};
 		};
 		
-		class util
-		{
-			class getLoadout
-			{
-				file = "\glass\fnc\util\get_loadout.sqf";
-			};
-			class setLoadout
-			{
-				file = "\glass\fnc\util\set_loadout.sqf";
-			};
-		};
-		
 	};
 };
