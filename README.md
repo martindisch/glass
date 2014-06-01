@@ -8,7 +8,6 @@ The glass system from the [M.E.R.C.S. campaign](http://forums.bistudio.com/showt
 * View information about other units
 * Shows user status such as current health, position and heading
 * Improves visibility in dark environments without NVG
-* NEW: Control active camouflage
 * NEW: Distance to target information
 
 Dependencies
