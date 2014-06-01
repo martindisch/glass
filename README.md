@@ -23,8 +23,8 @@ The `Addons` folder in the root of this repository needs to be in a mod folder, 
 Credits
 =======
 
-[IndeedPete](http://forums.bistudio.com/member.php?53386-IndeedPete) - Original glass system for his [M.E.R.C.S. campaign](http://forums.bistudio.com/showthread.php?177261-SP-Campaign-M-E-R-C-S-mercenary-expendable-ruthless-covert-selfish)
-[Doln](http://forums.bistudio.com/member.php?127325-Doln) - Distance measurement from his showcase mission for the [Arma 3: Poltergeist campaign](http://forums.bistudio.com/showthread.php?175999-Arma-3-Poltergeist-Taking-the-2035-setting-and-running-with-it)
+* [IndeedPete](http://forums.bistudio.com/member.php?53386-IndeedPete) - Original glass system for his [M.E.R.C.S. campaign](http://forums.bistudio.com/showthread.php?177261-SP-Campaign-M-E-R-C-S-mercenary-expendable-ruthless-covert-selfish)
+* [Doln](http://forums.bistudio.com/member.php?127325-Doln) - Distance measurement from his showcase mission for the [Arma 3: Poltergeist campaign](http://forums.bistudio.com/showthread.php?175999-Arma-3-Poltergeist-Taking-the-2035-setting-and-running-with-it)
 
 License
 =======
