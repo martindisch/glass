@@ -16,7 +16,7 @@ while {CHECK} do {
 	_canMove = if ((alive _target) && (!canMove _target)) then {"> <t color='#FF0000'>Immobilised</t><br/>"} else {""};
 	_canFire = if ((alive _target) && (!canFire _target)) then {"> <t color='#FF0000'>Ineffective</t><br/>"} else {""};
 	
-	if (_target isKindOf "MAN") then {
+	if ((_target isKindOf "MAN") && !(_target isKindOf "ANIMAL")) then {
 		_name = if (alive _target) then {
 			"> " + (name _target) + "<br/>"
 		} else {
