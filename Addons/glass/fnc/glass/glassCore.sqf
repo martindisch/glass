@@ -6,7 +6,7 @@ _goggles = _this select 0;
 
 _code = {
 	{
-		if((player distance _x < 1000) && (!isPlayer _x) && (player knowsAbout _x >= 0.7)) then	{
+		if (((player distance _x < 1000) && (player knowsAbout _x >= 0.7)) && (!isPlayer _x || (isPlayer _x && !(local _x)))) then	{
 			_vis = lineIntersects [eyePos player, eyePos _x, player, _x];
 			if(!_vis /*&& (vehicle _x == _x)*/) then	{
 				#define ColourCiv [1,1,1,1]
