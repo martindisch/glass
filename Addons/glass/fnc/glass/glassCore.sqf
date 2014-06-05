@@ -21,7 +21,7 @@ _code = {
 					case resistance: {"n"};
 					default {"b"};
 				};
-				_colour = if ((!alive _x) or (_side == civilian) or (isNull(driver _x))) then {ColourCiv} else {[_side] call BIS_fnc_SideColor};							
+				_colour = if ((!alive _x) or (_side == civilian) or (isNull(driver _x))) then {ColourCiv} else {[_side] call BIS_fnc_SideColor};
 				
 				if (_x isKindOf "MAN") then {
 					_pos set[2,(getPosATL _x select 2) + 2.2];							
@@ -46,6 +46,10 @@ _code = {
 					_pos set [2, (getPosATL _x select 2) + 4.5];							
 					_kind = "AIR";	
 					_marker = "_air.paa";
+				};
+				
+				if (_x isKindOf "ANIMAL") then {
+					_marker = nil;
 				};
 				
 				if (isNil "_marker") exitWith {};
